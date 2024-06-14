@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drone Flying Technology</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+    </style>
+</head>
+<body class="bg-gray-100 flex items-center justify-center min-h-screen">
+    <div class="bg-white shadow-lg rounded-lg p-8 max-w-md w-full text-center">
+        <div class="mb-8">
+            <img src="rogo01.jpg" alt="Drone Flying Logo" class="mx-auto mb-4">
+            <h1 class="text-3xl font-bold text-gray-800">Drone Flying</h1>
+            <h2 class="text-xl text-purple-600">TECHNOLOGY</h2>
+        </div>
+        <p class="text-gray-600 mb-4">Create Drone Flying Account</p>
+        <button class="bg-blue-500 text-white py-2 px-4 rounded-full w-full mb-4 hover:bg-blue-600 transition duration-300">
+            Sign in with Google
+        </button>
+　　　　　<button class="bg-black text-white py-2 px-4 rounded-full w-full hover:bg-gray-800 transition duration-300">
+            Sign in with Apple
+        </button>
+        
+    </div>
+    <script>
+        function redirectToGeolocation() {
+            window.location.href = "geolocation_string.html";
+        }
+        document.querySelector('.bg-blue-500').addEventListener('click', redirectToGeolocation);
+    </script>
+</body>
+
+</html>
